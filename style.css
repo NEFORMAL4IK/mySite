@@ -9,6 +9,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
+    
 }   
 .header{
     margin: 0.1%;
@@ -91,4 +93,12 @@ body{
     .prim{
         font-size: 10px;
     }
+    body{
+        background-attachment: fixed;
+    }
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+}
 }

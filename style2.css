@@ -9,6 +9,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
 }   
 .p{
     text-align: center;
@@ -85,5 +86,8 @@ body{
     }
     .txt1{
         font-size: 10px;/*eto da*/
+    }
+    body{
+        background-attachment: fixed;
     }
 }
