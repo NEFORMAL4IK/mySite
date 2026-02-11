@@ -56,10 +56,9 @@ body{
     overflow-wrap: break-word;
     flex-direction: row;
 }
-.bod1 img:first-child{
+.bod1 img{
     height: 400px;
     width: 700px;
-    
 }
 .p1{
     word-break: break-word;
@@ -69,10 +68,27 @@ body{
     font-weight: 700;
     margin-top: 5%;
 }
-@media (max-width: 1700px){
+@media (max-width: 1400px){
+    .h1{
+        font-size: 24px;
+    }
+    .h2{
+        font-size: 20px;
+    }
     .bod1{
         display: flex;
         flex-direction: row; /* по умолчанию, можно явно указать */
         flex-wrap: wrap;
+        
+    }
+    .bod1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .p1{
+        font-size: 12px;
+    }
+    .prim{
+        font-size: 10px;
     }
 }
